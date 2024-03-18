@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Read the excell file (please update)
-data = pd.read_excel('3Y.xlsx')
+data = pd.read_excel('https://github.com/pydorin/Finance_Analytics_Hub/blob/main/3Y.xlsx')
 
 # Group data by Year and Region
 grouped_data = data.groupby(['Month', 'Region'])['Feet amount'].sum().unstack()
