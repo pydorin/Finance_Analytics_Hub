@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Read the excell file
-data = pd.read_excel('/Users/dd/Desktop/3Y.xlsx')
+data = pd.read_excel(''https://github.com/pydorin/Pd_pivot_table/commit/82be387759bde3aa0d79563c797e7ff839567dc8')
 
 # Group data by Year and Region
 grouped_data = data.groupby(['Month', 'Region'])['Feet amount'].sum().unstack()
