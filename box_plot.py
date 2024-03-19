@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Sample data
+# Sample data - to be ipdated
 data = {
     'Year': [2023, 2023, 2023, 2023, 2023, 2023, 2023, 2023, 2023, 2023, 2023, 2023,
              2024, 2024, 2024, 2024, 2024, 2024, 2024, 2024, 2024, 2024, 2024, 2024,
@@ -36,6 +36,6 @@ plt.xlabel('Region')
 plt.ylabel('Feet Amount')
 plt.title('Box Plot of Feet Amount by Region')
 
-# Show the plot
+# Show the plot - need to check why 2 plots are generated
 plt.tight_layout()
 plt.show()
