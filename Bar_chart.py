@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Read the excell file (please update)
+# Read the excell file (please update) - to check the path!
 data = pd.read_excel('https://github.com/pydorin/Finance_Analytics_Hub/blob/main/3Y.xlsx')
 
 # Group data by Year and Region
