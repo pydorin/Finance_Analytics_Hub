@@ -2,8 +2,8 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-# Load data from Excel file - please update
-file_path = ''
+# Load data from Excel file
+file_path = '/Users/dd/Desktop/3Y.xlsx'
 df = pd.read_excel(file_path)
 
 # Convert 'Month' column to datetime
