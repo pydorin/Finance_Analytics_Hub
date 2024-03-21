@@ -1,7 +1,7 @@
 import plotly.graph_objs as go
 from plotly.subplots import make_subplots
 
-# Assume you have some data
+# Data example
 x_data = [1, 2, 3, 4, 5]
 y_data = [10, 15, 13, 17, 18]
 
