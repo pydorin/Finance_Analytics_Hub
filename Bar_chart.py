@@ -8,7 +8,7 @@ data = pd.read_excel('https://github.com/pydorin/Finance_Analytics_Hub/blob/main
 grouped_data = data.groupby(['Month', 'Region'])['Feet amount'].sum().unstack()
 
 # Create bar chart
-ax = grouped_data.plot(kind='bar', figsize=(10, 6))
+ax = grouped_data.plot(kind='bar', figsize=(11, 7))
 
 # Add labels and title
 plt.xlabel('Month')
